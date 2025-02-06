@@ -1,0 +1,26 @@
+[project]
+name = "srmp-jmag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gideon Grinberg",email = "grinberg1165@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lightkurve (>=2.5.0,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.2,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "pylatex (>=1.4.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
